@@ -23,12 +23,7 @@ import tensorflow as tf, joblib, numpy as np
 from dateutil.parser import parse
 
 
-# marketaux API-Key
-MARKETAUX_API_KEY = "hMCAuYSbfahDopkGP1DmoEZdn90ky3LPWL6kJzoq"
-# Gemini API-Key
-API_KEY = "AIzaSyAKUehrFeC1tiZG8swNGO94VI4q3Fer0Bw"
-# NewsAPI
-News_API_KEY = "97f1e601562e49ccbe6b33f2dcf1ebc3"
+
 
 # BBC
 def extract_bbc_article_text(url):
